@@ -1,6 +1,6 @@
 import random
 
-#
+
 words_list = ["orange", "banana", "cherry"]
 
 random_word = random.choice(words_list)
@@ -45,3 +45,4 @@ while attempts > 0:
 
 if attempts == 0:
     print(f"Ви програли! Загадане слово було '{random_word}'.")
+    
